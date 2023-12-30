@@ -83,6 +83,7 @@ updateInfrastructure() {
       --mode Complete \
       --verbose
   )
+  echo "Deployment Group Created"
   createSettings "$outputs"
   retrieveSecrets
   echo "Environment '$environment' of project '$project_name' ready."
